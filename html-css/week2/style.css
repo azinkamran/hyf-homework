@@ -1,0 +1,132 @@
+body{
+    width: 100vw;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  .headerName  {
+    width: 100%;
+    height: 150px;
+    background-color: lightgrey;
+    position: relative;
+  }
+h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: serif;
+  }
+h3{
+    font-size: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 150px;
+    color: gray;
+}  
+.menu {
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+    padding-left: 145PX;
+    display: inline-block;
+    color: black;
+  }
+  
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 15px;
+  font-family: sans-serif;
+  font-size: 2vw;
+}
+.menu a:hover {
+  color: lightgrey;
+}
+.photo{
+   width: 100%
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start ;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .left{
+  width: 40%;
+  float: left;
+  margin-left: 150px;
+  margin-right: 15px;
+}
+.container .right{
+  width: 60%;
+  float: right;
+}
+.h2{
+  font-size: 2vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+.p{
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:0;
+  margin:0;
+  color: black;
+}
+
+.logoContainer{
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.logoContainer>div{
+  max-width: 400px;
+  margin: auto;
+}
+.gallery{
+  width: 100%;
+  height: 60px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.lower-menu{
+  display : flex;
+  padding: 0 10px 10px 130px;
+  background-color: rgb(72, 47, 214);
+}
+.blue-menu{
+padding : 10px 30px ;
+}
+.blue-menu a{
+text-decoration: none;
+color:white;
+font-family: sans-serif;
+font-size: 12px;
+line-height:2em;
+}
+.blue-menu a:hover {
+background-color: rgb(17, 7, 79);
+}
+.blue-menu:visited {
+background-color: rgb(159, 147, 240);
+}
+.firstline a{
+font-size: 16px;
+font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+.lower-menu {display: block;}
+.wholePage {display: block;}
+h1{margin-left: 10px;}
+h3{margin-left: 10px;}
+.menu{padding-left: 10px;}
+.container .left{margin-left: 10px;}
+
+}
