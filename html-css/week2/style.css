@@ -30,7 +30,7 @@ h3{
     padding: 10px;
     text-align: left;
     padding-left: 145PX;
-    display: inline-block;
+    display:flex;
     color: black;
   }
   
@@ -58,13 +58,13 @@ h3{
 }
 .container .left{
   width: 40%;
-  float: left;
+  /*float: left;*/
   margin-left: 150px;
   margin-right: 15px;
 }
 .container .right{
   width: 60%;
-  float: right;
+  /*float: right;*/
 }
 .h2{
   font-size: 2vw;
@@ -76,6 +76,7 @@ h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding:0;
   margin:0;
+  text-align: justify;
   color: black;
 }
 
@@ -123,10 +124,20 @@ font-weight: bold;
 }
 @media screen and (max-width: 800px) {
 .lower-menu {display: block;}
-.wholePage {display: block;}
+.container {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:flex-start ;
+  width: 100%;
+  }
 h1{margin-left: 10px;}
 h3{margin-left: 10px;}
 .menu{padding-left: 10px;}
+.menu{ 
+flex-direction: column;
+padding-left: 0%; 
+}
 .container .left{margin-left: 10px;}
-
+.gallery{width: 30%;}
 }
