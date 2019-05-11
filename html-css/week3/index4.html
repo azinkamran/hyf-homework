@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="asset/style.css" />
+        <title>sign up step4</title>
+    </head>
+    <body>
+        <header>
+            <div class="headerContainer">
+                <div class="logo">
+                    <p>Logo</p>
+                </div>
+                <div class="navigation">
+                    <p>Navigation</p>
+                </div>
+            </div>
+        </header>
+       
+        
+        <main class="main">
+                <div class="first">
+                    <h1> Sign up to your customtailor.com</h1>
+                    
+                </div>
+                <div class="second">
+                    <h2>step 4/4- Payment</h2>
+                    <form action="index.html" method="POST" class="form">
+                        <!-- progress bar -->
+                        <fieldset>
+                            <div class="form-item">
+                                <label for="singup-progress">
+                                    Progress
+                                </label> 
+                                <progress value="4" max="5" class="progressbar">
+                                    
+                                </progress>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <p>Please fill in your payment data</p>
+                        </fieldset>
+                        <!-- nameofcard -->
+                        <fieldset>
+                            <div class="form-item">
+                                <label for="singup-nameofcard">
+                                    Name of card*
+                                </label>
+                                <input
+                                type="text" requiered 
+                                id="singup-nameofcard"
+                                name="nameofcard"
+                                placeholder="Write your name of card"
+                                />
+                            </div>
+                        </fieldset>
+                            <!-- card type -->
+                        <fieldset>
+                            <div class="form-item">
+                                <label for="singup-cardtype">
+                                        Card type*
+                                </label>
+                                <select name="carlist" form="carform">
+                                    <option value="visa">visa</option>
+                                    <option value="master">master</option>
+                                    <option value="paypal">paypal</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                        <!--credit card number-->
+                        <fieldset>
+                            <div class="form-item">
+                                <label for="singup-credit-card">
+                                    credit card bumber*
+                                </label>
+                                <input
+                                    type="text" requiered
+                                    id="singup-credit-card"
+                                    name="credit-card"
+                                    placeholder="Write your credit card number"
+                                />
+                            </div>
+                            <!--firs name-->
+                            <div class="form-item">
+                                <label for="singup-fname">
+                                    First name*
+                                </label>
+                                <input
+                                    type="text" requiered 
+                                    id="singup-fname"
+                                    name="fname"
+                                    placeholder="Write your first name"
+                                />
+                            </div>
+                        </fieldset>
+
+                        <!--expiry month-->
+                        <fieldset>
+                            <div class="form-item">
+                                <label for="singup-expiremonth">
+                                    Expire month
+                                </label>
+                                <input
+                                    type="text" requiered
+                                    id="singup-expiremonth"
+                                    name="expiremonth"
+                                />
+                            </div>
+                            <!--expire year-->
+                            <div class="form-item">
+                                <label for="singup-expireyear">
+                                    Expire year*
+                                </label>
+                                <input
+                                    type="text" requiered 
+                                    id="singup-expireyear"
+                                    name="expireyear"
+                                />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <!--ccv-->
+                            <div class="form-item">
+                                <label for="singup-ccv">
+                                    CCV*
+                                </label>
+                                <input
+                                type="text" requiered 
+                                id="singup-ccv"
+                                name="ccv"
+                                />
+                            </div>
+                        </fieldset>
+                        <!-- button-->
+                        <button type=”submit”>Next step</button>
+                    </form>
+                 </div>
+     
+            </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

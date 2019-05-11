@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="asset/style.css" />
+        <title>sign up step2</title>
+    </head>
+    <body>
+        <header>
+            <div class="headerContainer">
+                <div class="logo">
+                    <p>Logo</p>
+                </div>
+                <div class="navigation">
+                    <p>Navigation</p>
+                </div>
+            </div>
+        </header>
+       
+        
+        <main class="main">
+            <div class="first">
+                <h1> Sign up to your customtailor.com</h1>
+            </div>
+            <div class="second">
+                <h2>step 2/4- how can we reach you?</h2>
+                <form action="index3.html" method="POST" class="form">
+                    <!-- progress bar -->
+                    <div class="form-item">
+                        <label for="singup-progress">
+                            Progress
+                        </label> 
+                        <progress value="2" max="5" class="progressbar">
+                            
+                        </progress>
+                    </div>
+                    <p>We will probably need to stay in touch somehow. Let is know how we can reach you? </p>
+                    <!-- email -->
+                    <fieldset>
+                        <div class="form-item">
+                            <label for="singup-Email">
+                                Email*
+                            </label>
+                            <input
+                            type="email" 
+                            id="singup-email"
+                            name="email"
+                            placeholder="Write your email"
+                            />
+                        </div>
+                        <!-- phone -->
+                        <div class="form-item">
+                            <label for="singup-phone">
+                                phone
+                            </label>
+                            <input
+                            type="text" 
+                            id="singup-phone"
+                            name="phone"
+                            placeholder="Write your phone"
+                            />
+                        </div>
+                    </fieldset>
+                    
+                    <!--password-->
+                    <fieldset>
+                        <div class="form-item">
+                            <label for="singup-password">
+                                Password *
+                            </label>
+                            <input
+                                type="password" requiered
+                                id="singup-password"
+                                name="password"
+                                placeholder="Write your password"
+                            />
+                        </div>
+                        <!--re-enter password-->
+                        <div class="form-item">
+                            <label for="singup-reenter">
+                                Re-enter Password*
+                            </label>
+                            <input
+                                type="password" requiered 
+                                id="singup-reenter"
+                                name="reenter"
+                                placeholder="Write your password again"
+                            />
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <p>I want to sign up for the newsletter</p>
+                    </fieldset>
+                        <!--newsletter-->
+                    <div class="form-item">
+                        <fieldset>
+                            <input type="radio" name="newsletter" value="weekly"> Weekly news
+                            <input type="radio" name="newsletter" value="monthly"> Monthly news
+                            <input type="radio" name="newsletter" value="nonews"> Don't send me news
+                        </fieldset>
+                    </div>
+                    <!-- button-->
+                    <button type=”submit”>Next step</button>
+                </form>
+             </div>
+ 
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
