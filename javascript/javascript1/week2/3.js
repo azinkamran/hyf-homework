@@ -8,7 +8,8 @@ const today = new Date()
 const day = 14
 
 function getEventWeekday(day){
-    console.log(week[(0+day)%7])
+    return(week[day % 7])
 }
-
-getEventWeekday(day)
+console.log(getEventWeekday(day))
+console.log(getEventWeekday(today))
+console.log()

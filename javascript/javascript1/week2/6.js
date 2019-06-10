@@ -11,19 +11,19 @@ const amountToSpend= Math.random() * 100
 function addCandy(candyType,weight){
     if(candyType=="Sweet"){
         boughtCandyPrices[0] += weight * pricePerGram[0]
-        return(boughtCandyPrices[0])
+        return(boughtCandyPrices[0].toFixed(2))
     }
     if(candyType=="Chocolate"){
         boughtCandyPrices[1] += weight * pricePerGram[1]
-        return(boughtCandyPrices[1])
+        return(boughtCandyPrices[1].toFixed(2))
     }
     if(candyType=="Toffee"){
         boughtCandyPrices[2] += weight * pricePerGram[2]
-        return(boughtCandyPrices[2])
+        return(boughtCandyPrices[2].toFixed(2))
     }
     if(candyType=="Chewing-gum"){
         boughtCandyPrices[3] += weight * pricePerGram[3]
-        return(boughtCandyPrices[3])
+        return(boughtCandyPrices[3].toFixed(2))
     }
 }
 
@@ -38,7 +38,11 @@ function canBuyMoreCandy(){
         console.log("You already bought enough")
     }
 }
+console.log("You should pay ",addCandy("Sweet", 200))
 
-addCandy("Sweet", 20);
-console.log(boughtCandyPrices)
+console.log("You should pay ",addCandy("Chocolate", 15))
+console.log("You should pay ",addCandy("Toffee", 12))
+console.log("You should pay ",addCandy("Chewing-gum", 22))
+console.log()
+
 canBuyMoreCandy()

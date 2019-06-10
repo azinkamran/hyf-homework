@@ -12,12 +12,11 @@ function addStudentToClass(studentsNames) {
         getNumberOfStudents(class07Students)
         if(count<6 || studentsNames[i]=="Queen"){
             for (let j=0;j<10;j++){
-                if( class07Students.includes(studentsNames[i])){
-                   console.log('Student ' + studentsNames[i] + ' is already in the class')
-                }else{
-                    class07Students.push(studentsNames[i])
+                if( !(class07Students.includes(studentsNames[i]) )){
+                   class07Students.push(studentsNames[i])
                 }
             }
+            console.log('Student ' + studentsNames[i] + ' is already in the class')
         }else{
             console.log("Cannot add more students to class 07")
         }
