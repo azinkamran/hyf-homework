@@ -53,9 +53,9 @@ addSongToDatabase(song3)
 console.log(songDatabase)
 
 //search
-let i
+
 function getSongByTitle(title) {
-    for( i=0;i<songDatabase.length;i++){
+    for(let i=0;i<songDatabase.length;i++){
         if (songDatabase[i].title.includes(title)){
             return(songDatabase[i])
         }

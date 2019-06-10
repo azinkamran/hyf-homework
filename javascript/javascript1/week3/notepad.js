@@ -6,7 +6,7 @@ console.log()
 let notes=[]
 /////
 //Extra feature
-function CurrnetDay() {
+function CurrentDay() {
     let today = new Date()
     let dd = today.getDate()
     let mm = today.getMonth()+1
@@ -20,23 +20,20 @@ function CurrnetDay() {
 
 //save note
 
-let id
-let dateAdded 
-
-function addNote(content,id) {
-    dateAdded=CurrnetDay()
-    id = notes.length
+function addNote(content) {
+    const dateAdded=CurrentDay()
+    const id = notes.length
     notes.push({id,content,dateAdded})    
 }
 
 let content = "Something that I want to write down"
-addNote(content,id)
+addNote(content)
 
 content = "something somtheing something"
-addNote(content,id)
+addNote(content)
 
 content = "another thing"
-addNote(content,id)
+addNote(content)
 
 console.log("added to the notes")
 console.log()

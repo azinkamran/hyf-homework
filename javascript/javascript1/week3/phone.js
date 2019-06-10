@@ -37,16 +37,20 @@ console.log()
 const limit =30
 
 function showStatus() {
+    let status
     let activityAmount = 0
     if(activities.length===0){
-        console.log("Add some activities before calling showStatus")
+        status=("Add some activities before calling showStatus")
+        return status
     }else{
         for(let i=0;i<activities.length;i++){
             activityAmount+= activities[i].duration
         }
-        console.log("You have ",activities.length," activities. They amount to ", activityAmount," min. of usage")
+        status=("You have ",activities.length," activities. They amount to ", activityAmount," min. of usage")
+        return status
         if(activityAmount >= limit){
-            console.log("You have reached your limit, no more smartphoning for you!")
+            status=("You have reached your limit, no more smartphoning for you!")
+            return status
         }
     }
 }
