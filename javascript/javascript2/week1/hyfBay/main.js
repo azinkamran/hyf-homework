@@ -9,22 +9,14 @@ function renderProducts(products){
     const productUl = document.querySelector("section.products > ul");
     for(const item of products){
         const li = document.createElement("li")
-        li.innerHTML=item;
+        li.innerHTML = item.name + "|" + item.price+ "|" + item.rating + "|" + item.shipsTo;
         productUl.appendChild(li)
     }
 }
 
-const testProductNames = ['Flat screen', 'Mobile phone', 'Wallet'];
-renderProducts(testProductNames); // Should add 3 li's to the ul under the products section with Flat screen, Mobile phone, Wallet text
 
 
-const products = getAvailableProducts();
-console.log(products) // logs out
 
-
-function getAvailableProducts(){
-    
-}
 const testProductNames1 = [{
     id: 23771823,
     name: 'Flat screen',
@@ -44,3 +36,15 @@ const testProductNames1 = [{
     rating: 3.9,
     shipsTo: [ 'denmark', 'germany'],
 }];
+//const testProductNames = ['Flat screen', 'Mobile phone', 'Wallet'];
+
+renderProducts(testProductNames1); // Should add 3 li's to the ul under the products section with Flat screen, Mobile phone, Wallet text
+
+
+const products = getAvailableProducts();
+console.log(products) // logs out
+
+
+function getAvailableProducts(){
+    
+}
