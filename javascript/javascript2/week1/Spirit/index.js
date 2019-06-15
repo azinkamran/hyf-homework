@@ -14,6 +14,7 @@ function clicked(){
     }
     
 }
+// extra - for adding some animal spirit
 
 const myBtn1 = document.querySelector("button.myBtn1")
 myBtn1.addEventListener("click",addClick)
