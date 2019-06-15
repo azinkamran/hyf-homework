@@ -9,8 +9,20 @@ function renderProducts(products){
     const productUl = document.querySelector("section.products > ul");
     for(const item of products){
         const li = document.createElement("li")
-        li.innerHTML = item.name + "|" + item.price+ "|" + item.rating + "|" + item.shipsTo;
+        li.innerHTML = "Item Name: " + item.name  
         productUl.appendChild(li)
+
+        const liPrice = document.createElement("li")
+        liPrice.innerHTML =  " Price: " + item.price
+        productUl.appendChild(liPrice)
+
+        const liRating = document.createElement("li")
+        liRating.innerHTML = " Rating: " + item.rating 
+        productUl.appendChild(liRating)
+
+        const liShipsTo = document.createElement("li")
+        liShipsTo.innerHTML =  "Ships to: " + item.shipsTo
+        productUl.appendChild(liShipsTo)
     }
 }
 
