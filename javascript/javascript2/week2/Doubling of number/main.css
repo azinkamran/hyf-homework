@@ -1,0 +1,21 @@
+h1{
+    margin-left: 40%;
+    color: darkgreen;
+}
+ul li{
+    color: green;
+    display: flex;
+    float: left;
+    margin: 15px;
+}
+button{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+div{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 150px;
+    color: darkblue;
+}
