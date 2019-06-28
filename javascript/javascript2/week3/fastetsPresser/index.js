@@ -30,6 +30,7 @@ function Rclicked(){
     counts=0
     document.getElementById("result").innerHTML=""
     document.getElementById("countdown").innerHTML =""
+    document.getElementById("seconds").value=""
 }
 //button clicked get the value from input box
 
