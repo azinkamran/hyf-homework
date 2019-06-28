@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Fastest Presser</title>
+  <link rel="stylesheet" href="main.css">
+ </head>
+ <body>
+  <h1>Fastest Presser</h1>
+  
+  Set Seconds :<input type='text' id="seconds" onkeypress='validate(event)' />
+  <button class="startBtn">start game</button>
+  <button class="restartBtn">Restart</button>
+
+  <div id="countdown"></div>
+
+  
+  <div class="container">
+    <div class="gameDiv" id="clickAreaLeft">
+        <h2 class="pressKey">Press L</h2>
+        <h3 class="counterLeft"></h3>
+    </div>
+    <div class="gameDiv" id="clickAreaRight">
+        <h2 class="pressKey">Press S</h2>
+        <h3 class="counterRight"></h3>
+    </div>
+  </div>
+  <div id="result"></div>
+
+  <script src="index.js"></script>
+ </body>
+</html>
