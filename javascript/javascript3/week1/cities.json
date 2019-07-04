@@ -1,0 +1,42 @@
+[{
+    "city":"copenhagen",
+    "country":"denmark",
+    "population":1000000,
+    "placeToSee":{
+        "mustSee":"nyhoun",
+        "niceToSee":"tivoli",
+        "touristAttraction":"The Little Mermaid"
+    }
+},
+{
+    "city":"Stockholm",
+    "country":"Sweden",
+    "population":2000000,
+    "placeToSee":{
+        "mustSee":"Gamla Stan",
+        "niceToSee":"Abba meusem",
+        "touristAttraction":"the kings palace"
+    }
+},
+{
+    "city":"Paris",
+    "country":"France",
+    "population":4000000,
+    "placeToSee":{
+        "mustSee":"Ifel Tower",
+        "niceToSee":"versay palace",
+        "touristAttraction":"Arc the Tromphy"
+    }
+},
+{
+    "city":"Rome",
+    "country":"italy",
+    "population":4000000,
+    "placeToSee":{
+        "mustSee":"Colosseiom",
+        "niceToSee":"vatican Meusem",
+        "touristAttraction":"venizia"
+    }
+}
+
+]
