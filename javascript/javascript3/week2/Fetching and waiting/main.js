@@ -3,7 +3,7 @@ const showBtn = document.getElementById("btnShow");
 
 function getRandomPost() {
   let randomNumber = Math.floor(Math.random() * 100);
-  fetch("http://jsonplaceholder.typicode.com/posts")
+  fetch("https://jsonplaceholder.typicode.com/posts")
     .then(res => res.json())
     .then(posts => {
       //console.log(posts)
