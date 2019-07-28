@@ -7,16 +7,20 @@
 
   const span = document.querySelector('span');
 
-  function getRandomInt(min, max) {
-      min = Math.ceil(min);
-      max = Math.floor(max);
-      return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
+//   function getRandomInt(min, max) {
+//       min = Math.ceil(min);
+//       max = Math.floor(max);
+//       return Math.floor(Math.random() * (max - min + 1)) + min;
+//   }
 
   function randomizeStartPosition() {
       boxes.forEach(box => {
-          const x = getRandomInt(-20, 20);
-          const y = getRandomInt(-20, 20);
+        //   const x = getRandomInt(-20, 20);
+        //   const y = getRandomInt(-20, 20);
+
+          const x = 0
+          const y = 0
+
           
           box.style.left = x;
           box.style.top = y;
