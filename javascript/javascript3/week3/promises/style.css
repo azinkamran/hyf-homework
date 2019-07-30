@@ -1,0 +1,18 @@
+abody{
+    background-color: darkcyan;
+    width:100%;
+    display: flex;
+}
+#btnShow{
+    
+    padding : 10px 25px;
+    border-radius: 13px;
+    color: rgb(41, 18, 157);
+    background-color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.pShow{
+    color: cornflowerblue
+}
