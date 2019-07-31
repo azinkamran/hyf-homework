@@ -2,6 +2,8 @@ const displayBenjamin = document.querySelector("#benjamin");
 const displayAzin = document.querySelector("#Azin");
 const displayFatemeh = document.querySelector("#Fatemeh");
 
+const ul = document.querySelector("ul");
+
 const showBtn = document.getElementById("btnShow");
 
 function getApiBenjamin() {
@@ -10,11 +12,13 @@ function getApiBenjamin() {
     .then(posts => {
       // console.log(posts)
       console.log(posts.items[0].owner.login);
-      displayBenjamin.textContent =
-        posts.items[0].owner.login +
-        "'s repositories" +
-        " URL: " +
-        posts.items[0].owner.url;
+      
+      const li = document.createElement("li");
+      ul.appendChild(li);
+      li.innerHTML = posts.items[0].owner.login + "'s repositories";
+      const li2 = document.createElement("li");
+      ul.appendChild(li2);
+      li2.innerHTML = " URL: " + posts.items[0].owner.url;
     })
     .catch(error => console.log(error));
 }
@@ -23,13 +27,15 @@ function getApiAzin() {
   fetch("https://api.github.com/search/repositories?q=user:azinkamran")
     .then(res => res.json())
     .then(posts => {
-      console.log(posts);
+      //console.log(posts);
       console.log(posts.items[0].owner.login);
-      displayAzin.textContent =
-        posts.items[0].owner.login +
-        "'s repositories" +
-        " URL: " +
-        posts.items[0].owner.url;
+
+      const li = document.createElement("li");
+      ul.appendChild(li);
+      li.innerHTML = posts.items[0].owner.login + "'s repositories";
+      const li2 = document.createElement("li");
+      ul.appendChild(li2);
+      li2.innerHTML = " URL: " + posts.items[0].owner.url;
     })
     .catch(error => console.log(error));
 }
@@ -40,11 +46,12 @@ function getApiFatemeh() {
     .then(posts => {
       // console.log(posts)
       console.log(posts.items[0].owner.login);
-      displayFatemeh.textContent =
-        posts.items[0].owner.login +
-        "'s repositories" +
-        " URL: " +
-        posts.items[0].owner.url;
+      const li = document.createElement("li");
+      ul.appendChild(li);
+      li.innerHTML = posts.items[0].owner.login + "'s repositories";
+      const li2 = document.createElement("li");
+      ul.appendChild(li2);
+      li2.innerHTML = " URL: " + posts.items[0].owner.url;
     })
     .catch(error => console.log(error));
 }
