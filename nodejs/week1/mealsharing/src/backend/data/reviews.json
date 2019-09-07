@@ -1,0 +1,90 @@
+[
+	{
+		"id" : 1,
+		"title" : "Good very",
+		"description" : "It was a very great time",
+		"meal_id" : 7,
+		"stars" : 5,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 2,
+		"title" : "Nice evening",
+		"description" : "It was a very great time",
+		"meal_id" : 7,
+		"stars" : 5,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 3,
+		"title" : "Don't go there",
+		"description" : "I could not eat their food, tasted really bad",
+		"meal_id" : 3,
+		"stars" : 2,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 4,
+		"title" : "All good",
+		"description" : "Nice food, nice place, nice company",
+		"meal_id" : 3,
+		"stars" : 4,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 5,
+		"title" : "Pretty yummi food",
+		"description" : "Very nice evening with great dinner",
+		"meal_id" : 7,
+		"stars" : 5,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 6,
+		"title" : "Really great evening",
+		"description" : "I had a lovely time with Gizelle and Andrew and super nice food",
+		"meal_id" : 1,
+		"stars" : 5,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 7,
+		"title" : "Terrible experience!",
+		"description" : "I got my allergy triggered from the food, even though they knew I had it!",
+		"meal_id" : 5,
+		"stars" : 1,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 8,
+		"title" : "Weird food, okay company",
+		"description" : "The food was really weird, but the host is nice",
+		"meal_id" : 4,
+		"stars" : 2,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 9,
+		"title" : "Average",
+		"description" : "Average food, not bad, not too good",
+		"meal_id" : 3,
+		"stars" : 3,
+		"created_date" : "2019-08-25"
+	},
+	{
+		"id" : 10,
+		"title" : "Good food, nice place",
+		"description" : "Food was delicious, but I was a bit cold in the room",
+		"meal_id" : 2,
+		"stars" : 4,
+		"created_date" : "2019-08-20"
+	},
+	{
+		"id" : 11,
+		"title" : "Excellent",
+		"description" : "Really amazing food with great company",
+		"meal_id" : 1,
+		"stars" : 5,
+		"created_date" : "2019-08-20"
+	}
+]
