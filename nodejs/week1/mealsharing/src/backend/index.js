@@ -5,13 +5,13 @@ const app = express();
 const mealsRouter = require("./routes/meals.js");
 const cheapMealsRouter = require("./routes/cheapMeals.js");
 const largeMealsRouter = require("./routes/largeMeals.js");
-const randomMealRouter = require("./routes/randomMeal.js");
+const randomMealRouter = require("./routes/meal.js");
 const reservationRouter = require("./routes/reservations.js");
-const randomReservationRouter = require("./routes/randomReserv.js");
+const randomReservationRouter = require("./routes/reservation.js");
 
 app.use("/meals", mealsRouter);
-app.use("/cheapmeals", cheapMealsRouter);
-app.use("/largemeals", largeMealsRouter);
+app.use("/cheapMeals", cheapMealsRouter);
+app.use("/largeMeals", largeMealsRouter);
 app.use("/meal", randomMealRouter);
 app.use("/reservations", reservationRouter);
 app.use("/reservation", randomReservationRouter);
