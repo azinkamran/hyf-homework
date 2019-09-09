@@ -4,7 +4,7 @@ const router = express.Router ();
 const meals = require('../data/meals.json');
 const reservations = require('../data/reservations.json');
 
-router.get('/meals', function (req, res) {
+router.get('/meal', function (req, res) {
     const randomMeal=meals[Math.floor(Math.random() * meals.length)]
     let meal='';
     let listOfEmails=reservations.filter(reservation => reservation.mealId=randomMeal.id).map(item=>item.email)
