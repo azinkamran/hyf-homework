@@ -9,7 +9,14 @@ const randomMealRouter = require("./routes/meal.js");
 const reservationRouter = require("./routes/reservations.js");
 const randomReservationRouter = require("./routes/reservation.js");
 
-app.get('/', function (req, res) {
+app.get("/meals", mealsRouter);
+app.get("/cheapMeals", cheapMealsRouter);
+app.get("/largeMeals", largeMealsRouter);
+app.get("/meal", randomMealRouter);
+app.get("/reservation", randomReservationRouter);
+app.get("/reservations", reservationRouter);
+
+app.get("/", function(req, res) {
   res.send(`
     <a href="/meals">../meals</a><br />
     <a href="/cheap-meals">../cheap-meals</a><br />
@@ -19,12 +26,7 @@ app.get('/', function (req, res) {
     <a href="/reservations">../reservations</a><br />
   `);
 });
-app.get("/meals", mealsRouter);
-app.get("/cheap-meals", cheapMealsRouter);
-app.get("/large-meals", largeMealsRouter);
-app.get("/meal", randomMealRouter);
-app.get("/reservation", randomReservationRouter);
-app.get("/reservations", reservationRouter);
+
 // Server
 const server = app.listen(3000, function() {
   console.log("The app is listening at 3000");
