@@ -1,0 +1,81 @@
+[{
+    "id" : 1,
+    "title" : "Pizza",
+    "maxNumberOfGuests" : 10,
+    "description" : "Everyone loves pizza mizza",
+    "createdAt" : "2019-08-25",
+    "price" : 80.00
+},
+{
+    "id" : 2,
+    "title" : "Turkish dolma",
+    "maxNumberOfGuests" : 12,
+    "description" : "You will enjoy some kind of dolma",
+    "createdAt" : "2019-08-28",
+    "price" : 80.00
+},
+{
+    "id" : 3,
+    "title" : "Sushi",
+    "maxNumberOfGuests" : 15,
+    "description" : "Japanese kitchen",
+    "createdAt" : "2019-08-25",
+    "price" : 110.00
+},
+{
+    "id" : 4,
+    "title" : "Burger",
+    "maxNumberOfGuests" : 12,
+    "description" : "juicy burger with french fries",
+    "createdAt" : "2019-08-25",
+    "price" : 112.00
+},
+{
+    "id" : 5,
+    "title" : "Iranian Kebab",
+    "maxNumberOfGuests" : 15,
+    "description" : "Have an amazing lunch with us",
+    "createdAt" : "2019-08-25",
+    "price" : 80.00
+},
+{
+    "id" : 6,
+    "title" : "Mexican food with drink",
+    "maxNumberOfGuests" : 6,
+    "description" : "Delicious dish",
+    "createdAt" : "2019-08-27",
+    "price" : 90.00
+},
+{
+    "id" : 7,
+    "title" : "Pot roast",
+    "maxNumberOfGuests" : 9,
+    "description" : "delicious American pot roast",
+    "createdAt" : "2019-08-21",
+    "price" : 50.00
+},
+{
+    "id" : 8,
+    "title" : "clam chowder",
+    "maxNumberOfGuests" : 6,
+    "description" : "delicious soup",
+    "createdAt" : "2019-08-20",
+    "price" : 60.00
+},
+{
+    "id" : 9,
+    "title" : "Veggie sandwich",
+    "maxNumberOfGuests" : 6,
+    "description" : "The art of making sandwich",
+    "createdAt" : "2019-08-12",
+    "price" : 132.00
+},
+{
+    "id" : 10,
+    "title" : "Chicken soup",
+    "maxNumberOfGuests" : 7,
+    "description" : "We are good at making soup. Come and try it!",
+    "createdAt" : "2019-08-16",
+    "price" : 150.00
+}
+]

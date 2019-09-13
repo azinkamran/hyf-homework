@@ -1,0 +1,42 @@
+[
+    {
+      "name": "Benjamin Hughes",
+      "email": "benjamin@hughes.dk",
+      "mealId": 1
+    },
+    {
+        "name": "Fatemeh Pakpour",
+        "email": "faf@pak.dk",
+        "mealId": 2
+      },
+      {
+        "name": "Azin kam",
+        "email": "az@hul.dk",
+        "mealId": 3
+      },
+      {
+        "name": "Anne Marie",
+        "email": "kate@not.dk",
+        "mealId": 4
+      },
+      {
+        "name": "Bab Love",
+        "email": "b@lov.dk",
+        "mealId": 5
+      },
+      {
+        "name": "Sara woodely",
+        "email": "sar@wo.dk",
+        "mealId": 6
+      },
+      {
+        "name": "Mina Kate",
+        "email": "min@kat.dk",
+        "mealId": 6
+      },
+      {
+        "name": "Tina Tala",
+        "email": "Tina@tal.dk",
+        "mealId": 1
+      }
+  ]
