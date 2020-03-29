@@ -5,11 +5,11 @@ console.log("age-ify")
 console.log()
 
 
-let yearOfBirth = 1986
-let yearFuture = 2045
+const yearOfBirth = 1986
+const yearFuture = 2045
 
 
-console.log("in \'",yearFuture, "\' I will be \'",yearFuture - yearOfBirth , "\' years old")
+console.log("in \'" , yearFuture , "\' I will be \'",yearFuture - yearOfBirth , "\' years old")
 
 console.log()
 //----Goodboy-Oldboy (A dog age calculator)
@@ -17,14 +17,14 @@ console.log()
 console.log("Goodboy-Oldboy")
 console.log()
 
-let dogYearOfBirth = 2019
-let dogYearFuture = 2045
+const dogYearOfBirth = 2019
+const dogYearFuture = 2045
 
-let dogYear = dogYearFuture - dogYearOfBirth
+const dogYear = dogYearFuture - dogYearOfBirth
 
 let shouldShowResultInDogYears=[false,true]
 
-if (shouldShowResultInDogYears[1]) {
+if (shouldShowResultInDogYears[0]) {
     console.log("in \'",dogYearFuture,"\' the dog is \'", dogYear , "\' years old")
 }else{
     console.log("in \'",dogYearFuture,"\' the dog is \'", dogYear * 7 , "\' years old-human agewise")
@@ -67,10 +67,11 @@ console.log()
 console.log("Ez Namey")
 console.log()
 
-let firstWords = ["Easy","Awesome","Corporate","zeroOne","fantastic","click","webster","nerdy","amazing","berry"]
-let secondWords =["script","bizarre","club","cph","wonderful","try","design","monster","noMilk","production"]
+const firstWords = ["Easy","Awesome","Corporate","zeroOne","fantastic","click","webster","nerdy","amazing","berry"]
+const secondWords =["script","bizarre","club","cph","wonderful","try","design","monster","noMilk","production"]
 
 const randomNumber = [Math.floor(Math.random() * 10) + 0, Math.floor(Math.random() * 10) + 0]
 console.log("Start up name can be \'",firstWords[randomNumber[0]], secondWords[randomNumber[1]],"\'")
+
 
 console.log()
